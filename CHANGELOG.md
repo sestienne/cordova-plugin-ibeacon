@@ -1,3 +1,7 @@
+# 3.8.2
+- build(android): updated AltBeacon library to 2.19.4 (to be compliant with android 12)
+- fix(build) : Migrate gradle configuration to be compatible with gradle 7
+
 # 3.8.1
 - Fixing botched plugin id in release of v3.8.0.
 
