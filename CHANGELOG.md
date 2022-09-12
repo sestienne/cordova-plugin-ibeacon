@@ -1,3 +1,6 @@
+# 3.8.3
+- docs: update package name and urls
+
 # 3.8.2
 - build(android): updated AltBeacon library to 2.19.4 (to be compliant with android 12)
 - fix(build) : Migrate gradle configuration to be compatible with gradle 7
