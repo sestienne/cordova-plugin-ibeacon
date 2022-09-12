@@ -39,7 +39,11 @@
 ### Installation
 
 ```
-cordova plugin add https://github.com/petermetz/cordova-plugin-ibeacon.git
+cordova plugin add https://github.com/sestienne/cordova-plugin-ibeacon.git
+```
+Note that is's a fork of : 
+```
+https://github.com/petermetz/cordova-plugin-ibeacon.git
 ```
 
 ### Usage
@@ -55,7 +59,7 @@ Since version 3.2 the Klass dependency has been removed and therefore means crea
 #### iOS 8 Permissions
 
 On iOS 8, you have to request permissions from the user of your app explicitly. You can do this through the plugin's API.
-See the [LocationManager](https://github.com/petermetz/cordova-plugin-ibeacon/blob/master/www/LocationManager.js)'s 
+See the [LocationManager](https://github.com/sestienne/cordova-plugin-ibeacon/blob/master/www/LocationManager.js)'s 
 related methods: ```requestWhenInUseAuthorization``` and ```requestAlwaysAuthorization``` for further details.
 
 In order to use Advertising (e.g ```startAdvertising```), the iOS-Capability "Location updates" is required. (set in Xcode -> [your Target] -> Capabilities -> Background Modes -> Location updates)
