@@ -1,6 +1,6 @@
 {
   "name": "@sestienne/cordova-plugin-ibeacon",
-  "version": "3.8.2",
+  "version": "3.8.3",
   "description": "Proximity Beacon Monitoring and Transmission Plugin (supporting iBeacons)",
   "cordova": {
     "id": "com.unarin.cordova.beacon",
